@@ -1,0 +1,270 @@
+array (
+  'url' => 'https://b24-nxhazl.bitrix24.ru/rest/1/5qzotlgqecjmjfwn/batch.json',
+  'info' => 
+  array (
+    'url' => 'https://b24-nxhazl.bitrix24.ru/rest/1/5qzotlgqecjmjfwn/batch.json',
+    'content_type' => 'application/json; charset=utf-8',
+    'http_code' => 200,
+    'header_size' => 1030,
+    'request_size' => 203,
+    'filetime' => -1,
+    'ssl_verify_result' => 0,
+    'redirect_count' => 0,
+    'total_time' => 1.196012,
+    'namelookup_time' => 0.016972,
+    'connect_time' => 0.02733,
+    'pretransfer_time' => 0.072343,
+    'size_upload' => 796.0,
+    'size_download' => 3960.0,
+    'speed_download' => 3311.0,
+    'speed_upload' => 665.0,
+    'download_content_length' => -1.0,
+    'upload_content_length' => 796.0,
+    'starttransfer_time' => 0.072558,
+    'redirect_time' => 0.0,
+    'redirect_url' => '',
+    'primary_ip' => '178.132.201.50',
+    'certinfo' => 
+    array (
+    ),
+    'primary_port' => 443,
+    'local_ip' => '31.31.196.189',
+    'local_port' => 60356,
+    'http_version' => 3,
+    'protocol' => 2,
+    'ssl_verifyresult' => 0,
+    'scheme' => 'HTTPS',
+    'appconnect_time_us' => 71954,
+    'connect_time_us' => 27330,
+    'namelookup_time_us' => 16972,
+    'pretransfer_time_us' => 72343,
+    'redirect_time_us' => 0,
+    'starttransfer_time_us' => 72558,
+    'total_time_us' => 1196012,
+  ),
+  'params' => 
+  array (
+    'method' => 'batch',
+    'params' => 
+    array (
+      'cmd' => 
+      array (
+        'addDeal' => 'crm.deal.add?fields%5BTITLE%5D=%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%B2%D0%B5%D0%B1%D1%85%D1%83%D0%BA%D0%B0&fields%5BRESPONSIBLE_ID%5D=15&fields%5BCATEGORY_ID%5D=0&fields%5BSTAGE_ID%5D=NEW&fields%5BUF_CRM_1700424718%5D=45',
+        'addTask' => 'tasks.task.add?fields%5BTITLE%5D=%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%B2%D0%B5%D0%B1%D1%85%D1%83%D0%BA%D0%B0&fields%5BCREATED_BY%5D=1&fields%5BRESPONSIBLE_ID%5D=15&fields%5BDEADLINE%5D=2023-11-20T18%3A00%3A00%2B03%3A00',
+      ),
+      'halt' => 0,
+    ),
+  ),
+  'result' => 
+  array (
+    'result' => 
+    array (
+      'result' => 
+      array (
+        'addDeal' => 35,
+        'addTask' => 
+        array (
+          'task' => 
+          array (
+            'id' => '41',
+            'parentId' => NULL,
+            'title' => 'Тестирование вебхука',
+            'description' => '',
+            'mark' => NULL,
+            'priority' => '1',
+            'multitask' => 'N',
+            'notViewed' => 'N',
+            'replicate' => 'N',
+            'stageId' => '0',
+            'createdBy' => '1',
+            'createdDate' => '2023-11-20T01:55:21+03:00',
+            'responsibleId' => '15',
+            'changedBy' => '1',
+            'changedDate' => '2023-11-20T01:55:21+03:00',
+            'statusChangedBy' => NULL,
+            'closedBy' => NULL,
+            'closedDate' => NULL,
+            'activityDate' => '2023-11-20T01:55:21+03:00',
+            'dateStart' => NULL,
+            'deadline' => '2023-11-20T18:00:00+03:00',
+            'startDatePlan' => NULL,
+            'endDatePlan' => NULL,
+            'guid' => '{e5a7b09a-0c0c-4672-8700-4899385176ea}',
+            'xmlId' => NULL,
+            'commentsCount' => '1',
+            'serviceCommentsCount' => '1',
+            'allowChangeDeadline' => 'N',
+            'allowTimeTracking' => 'N',
+            'taskControl' => 'N',
+            'addInReport' => 'N',
+            'forkedByTemplateId' => NULL,
+            'timeEstimate' => '0',
+            'timeSpentInLogs' => NULL,
+            'matchWorkTime' => 'N',
+            'forumTopicId' => '43',
+            'forumId' => '11',
+            'siteId' => 's1',
+            'subordinate' => 'N',
+            'exchangeModified' => NULL,
+            'exchangeId' => NULL,
+            'outlookVersion' => '2',
+            'viewedDate' => '2023-11-20T01:55:21+03:00',
+            'sorting' => NULL,
+            'durationFact' => NULL,
+            'isMuted' => 'N',
+            'isPinned' => 'N',
+            'isPinnedInGroup' => 'N',
+            'descriptionInBbcode' => 'Y',
+            'status' => '2',
+            'statusChangedDate' => '2023-11-20T01:55:21+03:00',
+            'durationPlan' => NULL,
+            'durationType' => 'days',
+            'favorite' => 'N',
+            'groupId' => '0',
+            'auditors' => 
+            array (
+            ),
+            'accomplices' => 
+            array (
+            ),
+            'checklist' => 
+            array (
+            ),
+            'group' => 
+            array (
+            ),
+            'creator' => 
+            array (
+              'id' => '1',
+              'name' => 'Андрей Беликин',
+              'link' => '/company/personal/user/1/',
+              'icon' => 'https://cdn-ru.bitrix24.ru/b27630924/resize_cache/65/c0120a8d7c10d63c83e32398d1ec4d9e/main/a1a/a1a009951ee3d9ced35e17c24613990b/ea4937c476185e16f5dc22b4e3b7f29e.png',
+              'workPosition' => 'Ответственный за задачу до маршрутизации',
+            ),
+            'responsible' => 
+            array (
+              'id' => '15',
+              'name' => 'Александр Бадилин',
+              'link' => '/company/personal/user/15/',
+              'icon' => '/bitrix/images/tasks/default_avatar.png',
+              'workPosition' => '',
+            ),
+            'accomplicesData' => 
+            array (
+            ),
+            'auditorsData' => 
+            array (
+            ),
+            'newCommentsCount' => 0,
+            'action' => 
+            array (
+              'accept' => false,
+              'decline' => false,
+              'complete' => true,
+              'approve' => false,
+              'disapprove' => false,
+              'start' => true,
+              'pause' => false,
+              'delegate' => true,
+              'remove' => true,
+              'edit' => true,
+              'defer' => true,
+              'renew' => false,
+              'create' => true,
+              'changeDeadline' => true,
+              'checklistAddItems' => true,
+              'addFavorite' => true,
+              'deleteFavorite' => false,
+              'rate' => true,
+              'edit.originator' => false,
+              'checklist.reorder' => true,
+              'elapsedtime.add' => true,
+              'dayplan.timer.toggle' => false,
+              'edit.plan' => true,
+              'checklist.add' => true,
+              'favorite.add' => true,
+              'favorite.delete' => false,
+            ),
+            'checkListTree' => 
+            array (
+              'nodeId' => 0,
+              'fields' => 
+              array (
+                'id' => NULL,
+                'copiedId' => NULL,
+                'entityId' => NULL,
+                'userId' => 1,
+                'createdBy' => NULL,
+                'parentId' => NULL,
+                'title' => '',
+                'sortIndex' => NULL,
+                'displaySortIndex' => '',
+                'isComplete' => false,
+                'isImportant' => false,
+                'completedCount' => 0,
+                'members' => 
+                array (
+                ),
+                'attachments' => 
+                array (
+                ),
+              ),
+              'action' => 
+              array (
+              ),
+              'descendants' => 
+              array (
+              ),
+            ),
+            'checkListCanAdd' => true,
+          ),
+        ),
+      ),
+      'result_error' => 
+      array (
+      ),
+      'result_total' => 
+      array (
+      ),
+      'result_next' => 
+      array (
+      ),
+      'result_time' => 
+      array (
+        'addDeal' => 
+        array (
+          'start' => 1700434520.707682,
+          'finish' => 1700434521.396818,
+          'duration' => 0.6891360282897949,
+          'processing' => 0.6886649131774902,
+          'date_start' => '2023-11-20T01:55:20+03:00',
+          'date_finish' => '2023-11-20T01:55:21+03:00',
+          'operating_reset_at' => 1700435120,
+          'operating' => 0.6886529922485352,
+        ),
+        'addTask' => 
+        array (
+          'start' => 1700434521.397438,
+          'finish' => 1700434521.751031,
+          'duration' => 0.3535928726196289,
+          'processing' => 0.3528409004211426,
+          'date_start' => '2023-11-20T01:55:21+03:00',
+          'date_finish' => '2023-11-20T01:55:21+03:00',
+          'operating_reset_at' => 1700435120,
+          'operating' => 0.3528320789337158,
+        ),
+      ),
+    ),
+    'time' => 
+    array (
+      'start' => 1700434520.679307,
+      'finish' => 1700434521.751578,
+      'duration' => 1.0722711086273193,
+      'processing' => 1.0440139770507812,
+      'date_start' => '2023-11-20T01:55:20+03:00',
+      'date_finish' => '2023-11-20T01:55:21+03:00',
+      'operating_reset_at' => 1700435120,
+      'operating' => 0,
+    ),
+  ),
+)
